@@ -1,9 +1,9 @@
-# Gate_DA
-Probability and Statistics
-Linear Algebra
-Calculus
-Machine Learning
-AI
+# GATE_DA
+1. Probability and Statistics
+2. Linear Algebra
+3. Calculus
+4. Machine Learning
+5. AI
 
 ## Syllabus
 
