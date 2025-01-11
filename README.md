@@ -3,7 +3,116 @@
 2. Linear Algebra
 3. Calculus
 4. Machine Learning
-5. AI
+5. AI.
+   
+## Paper Structure
+- Total Marks: 100
+- Duration: 3 hours
+#### Sections: 
+- General Aptitude (15 marks)
+- Technical (85 marks)
+Question Types: MCQ & NAT
+
+### 1. Mathematics & Statistics (~20-25 marks)
+High Priority Topics:
+#### Linear Algebra
+  • Matrix Operations
+  • Eigenvalues & Eigenvectors
+  • Vector Spaces
+
+#### Probability & Statistics
+  • Probability Distributions
+  • Hypothesis Testing
+  • Confidence Intervals
+  • Sampling Methods
+
+#### Calculus & Optimization
+  • Derivatives & Gradients
+  • Multivariate Calculus
+  • Optimization Techniques
+
+ ### 2. Machine Learning (~20-25 marks) 
+ Key Focus Areas:
+####  Supervised Learning
+  • Linear Regression
+  • Logistic Regression
+  • Decision Trees
+  • Random Forests
+  • SVM
+  • KNN
+
+####  Unsupervised Learning
+  • K-means Clustering
+  • Hierarchical Clustering
+  • PCA
+  • Dimensionality Reduction
+
+####  Model Evaluation
+  • Cross-validation
+  • Metrics (Precision, Recall, F1)
+  • ROC Curves
+  • Bias-Variance Tradeoff
+
+### 3. Deep Learning (~15-20 marks)
+
+###### Essential Topics:
+#### Neural Networks
+  • Feedforward Networks
+  • Backpropagation
+  • Activation Functions
+  • Loss Functions
+
+#### CNN
+  • Convolution Operations
+  • Pooling Layers
+  • CNN Architectures
+
+#### RNN & LSTM
+  • Sequential Data Processing
+  • Vanishing Gradient
+  • LSTM Architecture
+
+#### Advanced Topics
+  • Transfer Learning
+  • GANs
+  • Transformers
+
+### 4. Programming & Data Structures (~10-15 marks)
+
+  ### Important Concepts:
+#### Python Programming
+  • Data Types
+  • Control Structures
+  • Functions
+  • OOP Concepts
+
+#### Data Structures
+  • Arrays
+  • Lists
+  • Trees
+  • Graphs
+
+#### Algorithms
+  • Sorting
+  • Searching
+  • Graph Algorithms
+
+### 5. Data Management & Processing (~10-15 marks)
+  ### Core Areas:
+#### Databases
+  • SQL
+  • NoSQL
+  • Data Modeling
+
+#### Big Data
+  • Hadoop
+  • Spark
+  • MapReduce
+
+#### Data Processing
+  • ETL
+  • Data Cleaning
+  • Feature Engineering
 
 ## Syllabus
 
@@ -28,3 +137,21 @@ ER-model, relational model: relational algebra, tuple calculus, SQL, integrity c
 ## AI: 
 Search: informed, uninformed, adversarial; logic, propositional, predicate; reasoning under uncertainty topics — conditional independence representation, exact inference through variable elimination, and approximate inference through sampling.
 
+### Important Resources
+1.Books
+- Pattern Recognition and Machine Learning (Bishop)
+- Deep Learning (Goodfellow)
+- Introduction to Statistical Learning
+- Python for Data Analysis
+
+2. Online Resources
+- Stanford CS229 (Machine Learning)
+- Stanford CS231n (CNN)
+- Fast.ai Courses
+- Kaggle Competitions
+
+3. Python Libraries:
+  • NumPy
+  • Pandas
+  • Scikit-learn
+  • TensorFlow/PyTorch
