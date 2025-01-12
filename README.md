@@ -1,9 +1,12 @@
 # GATE_DA
+# Data Science and Artificial Inteligence
 1. Probability and Statistics
 2. Linear Algebra
-3. Calculus
-4. Machine Learning
-5. AI.
+3. Calculus and Optimization
+4. Programming , Data Structure and Algorithm
+5. Database Management and Warehousing
+6. Machine Learning
+7. AI
    
 ## Paper Structure
 - Total Marks: 100
@@ -11,25 +14,28 @@
 #### Sections: 
 - General Aptitude (15 marks)
 - Technical (85 marks)
-Question Types: MCQ & NAT
+##### Question Types:
+- Multiple Choice Questions (1 mark)
+- Multiple Choice Questions (2 marks)
+- Numerical Answer Type (NAT)
 
-### 1. Mathematics & Statistics (~20-25 marks)
-High Priority Topics:
+### Section 1. Mathematics & Statistics (~20-25 marks)
 #### Linear Algebra
+  Key Focus Areas:
+
+1. Matrix Operations
    Important Topics:
    - Rank computation
    - Matrix inverse
    - Matrix decomposition
-  • Matrix Operations
-  • Eigenvalues & Eigenvectors
-  • Vector Spaces
-
-Common Questions:
+   - Eigenvalue problems
+   
+   Common Questions:
    - Find eigenvalues/eigenvectors
    - Solve system of equations
    - Matrix properties verification
 
-#### 2. Vector Spaces
+2. Vector Spaces
    Key Concepts:
    - Basis and dimension
    - Linear independence
@@ -54,12 +60,7 @@ Common Questions:
    - Σ: singular values
    - V: right singular vectors
      
-#### Probability & Statistics  (7-8 marks)
-  • Probability Distributions
-  • Hypothesis Testing
-  • Confidence Intervals
-  • Sampling Methods
-
+#### 2. Probability & Statistics  (7-8 marks)
 Key Areas:
 
 ###### 1. Probability Fundamentals
@@ -110,15 +111,29 @@ Important Concepts:
    - z: z-score
    - σ: standard deviation
    - n: sample size
+### Important Formulas to Remember
+   1. Linear Algebra:
+   - |AB| = |A||B|
+   - (A^-1)^T = (A^T)^-1
+   - Rank + Nullity = n
+
+2. Probability:
+   - E(aX + b) = aE(X) + b
+   - Var(aX + b) = a²Var(X)
+   - P(A∪B) = P(A) + P(B) - P(A∩B)
+
+3. Statistics:
+   - Z = (X - μ)/σ
+   - t = (X̄ - μ)/(s/√n)
+   - χ² = Σ((O-E)²/E)
      
 #### Calculus & Optimization
   • Derivatives & Gradients
   • Multivariate Calculus
   • Optimization Techniques
 
- ### 2. Machine Learning (~20-25 marks) 
- Key Focus Areas:
-####  Supervised Learning
+ ### Section 2: Machine Learning (~20-25 marks) 
+#### 1. Supervised Learning (12-15 marks)
   • Linear Regression
   • Logistic Regression
   • Decision Trees
@@ -172,7 +187,7 @@ Important Concepts:
    - Linear SVM
    - Non-linear SVM (RBF, Polynomial)
 
-####  Unsupervised Learning (5-7 marks)
+#### 2. Unsupervised Learning (5-7 marks)
   • K-means Clustering
   • Hierarchical Clustering
   • PCA
@@ -215,7 +230,7 @@ Important Concepts:
       - Explained variance ratio
       - Component selection
 
-####  Model Evaluation (3-5 marks)
+#### 3.  Model Evaluation (3-5 marks)
   • Cross-validation
   • Metrics (Precision, Recall, F1)
   • ROC Curves
@@ -245,15 +260,13 @@ Important Concepts:
    CV score = (1/K)Σ(validation_score)
 
 ### 3. Deep Learning (~15-20 marks)
-
-###### Essential Topics:
 #### Neural Networks Fundamentals (6-8 marks)
   • Feedforward Networks
   • Backpropagation
   • Activation Functions
   • Loss Functions
-  Key Concepts:
 
+Key Concepts:
 1. Network Architecture
    Components:
    - Input layer
@@ -290,7 +303,7 @@ Important Concepts:
    Formula:
    w = w - α∂L/∂w
 
-#### CNN Architecture (5-6 marks)
+#### 2. CNN Architecture (5-6 marks)
   • Convolution Operations
   • Pooling Layers
   • CNN Architectures
@@ -327,7 +340,7 @@ Important Concepts:
    - ResNet
    Key features and innovations
 
-#### RNN & LSTM (4-5 marks)
+#### 3. RNN & LSTM (4-5 marks)
   • Sequential Data Processing
   • Vanishing Gradient
   • LSTM Architecture
@@ -351,6 +364,7 @@ Core Concepts:
    
    Cell state:
    - C_t = f_t * C_(t-1) + i_t * C̃_t
+
 #### Advanced Topics (2-3 marks)
   • Transfer Learning
   • GANs
@@ -377,15 +391,29 @@ Key Areas:
    - Self-attention
    - Multi-head attention
    - Position encoding
-### 4. Programming & Data Structures (~10-15 marks)
 
-  ### Important Concepts:
+### Important Formulas & Concepts
+1. Neural Networks:
+   - Weight updates: w = w - α∇L
+   - Gradient calculation
+   - Learning rate scheduling
+
+2. CNN:
+   - Receptive field calculation
+   - Feature map size
+   - Number of parameters
+
+3. RNN/LSTM:
+   - Sequence processing
+   - Gradient flow
+   - Gate mechanisms
+
+4. Optimization:
+   - Adam: m_t = β₁m_(t-1) + (1-β₁)g_t
+   - RMSprop: v_t = βv_(t-1) + (1-β)g_t²
+   - Learning rate decay
+### Section 4. Programming & Data Structures (~10-15 marks)
 #### Python Programming (5-6 marks)
-  • Data Types
-  • Control Structures
-  • Functions
-  • OOP Concepts
-
   Key Concepts:
 
 1. Python Basics
@@ -438,7 +466,7 @@ Key Areas:
    df.merge()
    ```
 
-#### Data Structures (3-4 marks)
+#### 2. Data Structures (3-4 marks)
   • Arrays
   • Lists
   • Trees
@@ -480,7 +508,7 @@ Key Areas:
    - Matrix: O(V²)
    - List: O(V+E)
 
-#### Algorithms (3-4 marks)
+#### 3. Algorithms (3-4 marks)
   • Sorting
   • Searching
   • Graph Algorithms
@@ -505,9 +533,8 @@ Key Areas:
    - BFS: O(V+E)
    - DFS: O(V+E)
    - Dijkstra: O(V log V + E)
-### 5. Data Management & Processing (~10-15 marks)
-  ### Core Areas:
-#### Databases
+### Section 5. Data Management & Processing (~10-15 marks)
+#### 1. Databases (4-5 marks)
   • SQL
   • NoSQL
   • Data Modeling
@@ -600,6 +627,24 @@ Key Concepts:
    - StandardScaler
    - OneHotEncoder
    - PCA
+
+### Important Concepts to Remember
+
+     1. Python:
+   - List vs Tuple vs Set
+   - Dictionary operations
+   - Generator functions
+   - Decorators
+
+2. Data Structures:
+   - Time complexity
+   - Space complexity
+   - Trade-offs
+
+3. Databases:
+   - ACID properties
+   - Index types
+   - Query optimization
 
 ## Syllabus
 
