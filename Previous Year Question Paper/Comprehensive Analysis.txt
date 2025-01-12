@@ -1,0 +1,82 @@
+## GATE Data Science & AI - Comprehensive Analysis (Part 1)
+
+Total Marks: 100
+Duration: 3 hours
+Question Types:
+- Multiple Choice Questions (1 mark)
+- Multiple Choice Questions (2 marks)
+- Numerical Answer Type (NAT)
+
+Section-wise Distribution:
+1. Mathematics & Statistics: 20-25 marks
+2. Machine Learning: 20-25 marks
+3. Deep Learning: 15-20 marks
+4. Programming & DS: 10-15 marks
+5. Data Management: 10-15 marks
+
+Practice Strategy
+  Weekly Schedule:
+
+1. Theory Study (40%)
+   - Concept understanding
+   - Mathematical foundations
+   - Algorithm analysis
+
+2. Problem Solving (40%)
+   - Previous year questions
+   - Numerical problems
+   - Implementation tasks
+
+3. Mock Tests (20%)
+   - Full-length papers
+   - Section-wise tests
+   - Topic-wise quizzes
+
+One Week Before:
+1. Quick Review
+   - Formula sheets
+   - Important algorithms
+   - Common patterns
+
+Last-Minute Preparation
+2. Practice Focus
+   - Time management
+   - Error prevention
+   - Quick calculations
+
+3. Mental Preparation
+   - Stress management
+   - Time allocation
+   - Strategy refinement
+
+ Key Success Factors
+1. Conceptual Understanding
+   - Focus on fundamentals
+   - Connect related topics
+   - Practice applications
+
+2. Problem-Solving Skills
+   - Regular practice
+   - Time management
+   - Accuracy focus
+
+3. Implementation Knowledge
+   - Coding practice
+   - Algorithm implementation
+   - Optimization techniques
+
+Additional Resources
+1. Study Materials
+   - Standard textbooks
+   - Online courses
+   - Research papers
+
+2. Practice Resources
+   - Previous year papers
+   - Mock tests
+   - Online platforms
+
+3. Implementation Tools
+   - Python libraries
+   - ML frameworks
+   - Development environments
